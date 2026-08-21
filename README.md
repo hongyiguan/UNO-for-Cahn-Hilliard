@@ -69,7 +69,7 @@ Checkpoints are written to `grid_search_checkpoints/` (baseline) and `grid_searc
 
 Autoregressive rollout to 5000 solver steps (500 network calls) from a shared initial condition. Colour scale is pinned to $[-1, +1]$, so any excursion outside the physical range saturates rather than being rescaled away.
 
-
+https://github.com/user-attachments/assets/58921985-0d0f-44b8-8f64-fb93b010885b
 
 The baseline, trained only on one-step targets, accumulates error and loses the coarsening morphology over the horizon. The unrolled, barrier-trained model tracks the spectral reference and stays within the physical bounds throughout.
 
